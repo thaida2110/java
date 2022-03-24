@@ -63,9 +63,6 @@ task wrapper(type: Wrapper) {
 }
 // end::wrapper[]
 
-plugins {
-    id 'java'
-}
 jar {
     manifest {
         attributes(
