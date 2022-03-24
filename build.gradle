@@ -63,6 +63,8 @@ task wrapper(type: Wrapper) {
 }
 // end::wrapper[]
 
+mainClassName = 'Main'
+
 jar {
     manifest {
         attributes(
